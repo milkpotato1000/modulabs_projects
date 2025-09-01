@@ -34,7 +34,7 @@
 ---
 
  ```bash
-git clone https://github.com/{your-username}/modulabs_projects.git
+git clone https://github.com/milkpotato1000/modulabs_projects.git
 ```
 를 통해 저장소를 클론할 수 있습니다.
 
