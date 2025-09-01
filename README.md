@@ -1,6 +1,5 @@
 # modulabs_projects
-
-모두의연구소 Bootcamp 과정에서 진행한 다양한 데이터 분석 및 머신러닝 프로젝트들을 정리한 저장소입니다.  
+개인 파일럿 프로젝트 및 모두의연구소 Bootcamp 과정에서 진행한 다양한 데이터 분석 및 머신러닝 프로젝트들을 정리한 저장소입니다.  
 각 서브 디렉터리는 날짜별/주제별로 구분되어 있으며, 실습한 주피터 노트북(`.ipynb`) 파일들이 포함되어 있습니다.
 
 ---
@@ -19,9 +18,14 @@
   - 피처 엔지니어링(Feature Engineering) 관련 프로젝트  
   - 새로운 변수 생성, 파생 변수 추가, 도메인 지식 활용  
 
-- **250821_main_quest_sales_forecast**  
-  - 메인 퀘스트 프로젝트: **판매량 예측(Sales Forecasting)**  
-  - 시계열 데이터 기반 모델링 및 성능 평가  
+- **250821_main_quest_구매수량예측**  
+  - 메인 퀘스트 프로젝트: **구매 수량 예측 모델**  
+  - 다양한 고객 정보 데이터를 활용하여 고객이 구매한 물품 수량을 예측
+  - Data pre-processing
+  - Feature engineering
+  - Model selection
+  - Model training
+  - model evaluation  
 
 - **customer_segmentation_project**  
   - 고객 세분화 프로젝트  
@@ -44,9 +48,11 @@ git clone https://github.com/milkpotato1000/modulabs_projects.git
 
 - 데이터 분석 및 머신러닝 학습 과정 기록
 
-- Bootcamp 커리큘럼 과제를 통한 실전 경험 축적
+- Bootcamp 커리큘럼 복습 및 과제를 통한 실전 경험 축적
 
 - 프로젝트 기반 포트폴리오 아카이브
+
+---
 
 ## 📌 Note
 
