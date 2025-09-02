@@ -33,7 +33,15 @@
 
 - **machine_learning_module**  
   - 머신러닝 모듈 학습 및 실습 프로젝트 모음  
-  - 분류(Classification), 회귀(Regression), 클러스터링(Clustering) 등 다양한 모델 훈련 기록  
+  - 분류(Classification), 회귀(Regression), 클러스터링(Clustering) 등 다양한 모델 훈련 기록
+
+- **250902_team_proj_residual_analysis**  
+  - 선형 회귀 (Linear regression) 관련 프로젝트  
+  - 잔차 분석 수행  
+    - 잔차와 예측값 산점도를 통한 등분산성 검증  
+    - 잔차 히스토그램 및 QQ 플롯을 통한 정규성 검증  
+    - VIF(Variance Inflation Factor)를 통한 잔차 독립성 검정  
+  - 목표: 잔차 분석을 기반으로 선형 모델 적용 가능성과 문제 해결 단서 탐색
 
 ---
 
