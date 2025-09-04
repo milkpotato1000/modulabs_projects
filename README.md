@@ -43,6 +43,18 @@
     - VIF(Variance Inflation Factor)를 통한 잔차 독립성 검정  
   - 목표: 잔차 분석을 기반으로 선형 모델 적용 가능성과 문제 해결 단서 탐색
 
+- **250903_keggle_housing_price_pred**
+    - Kaggle House Prices: Advanced Regression Techniques 실습 노트북
+    - 주요 내용: 데이터 불러오기, 전처리, 탐색적 데이터 분석(EDA), 피처 엔지니어링, 회귀 모델 학습 및 평가
+    - 목표: 건물과 관련된 여러가지 정보를 활용하여 주택의 가격 예측모델 학습/예측 및 평가
+
+- **250904_clusturing**
+    - Clusturing 학습내용 실습 코드
+    - 주요 내용: K-means, Mean Shift, GMM, DBSCAN (군집화, 군집평가, 실습)
+    - 목표: 주요 clusturing 알고리즘에 대한 이해 및 iris 데이터 세트를 이용한 실습.
+    - 참고: https://www.kaggle.com/code/azminetoushikwasi/different-clustering-techniques-and-algorithms
+
+주요 내용: 데이터 불러오기, 전처리, 탐색적 데이터 분석(EDA), 피처 엔지니어링, 회귀 모델 학습 및 평가
 ---
 
  ```bash
