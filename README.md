@@ -54,7 +54,11 @@
     - 목표: 주요 clusturing 알고리즘에 대한 이해 및 iris 데이터 세트를 이용한 실습.
     - 참고: https://www.kaggle.com/code/azminetoushikwasi/different-clustering-techniques-and-algorithms
 
-주요 내용: 데이터 불러오기, 전처리, 탐색적 데이터 분석(EDA), 피처 엔지니어링, 회귀 모델 학습 및 평가
+- **250905_text_analysis**
+    - 텍스트 분석
+    - 주요내용: NLP와 TA의 관계, 텍스트 전처리(Cleansing, Tokenization, Filtering/Stop Word Removal, Stemming/Lemmatization), 희소행렬
+    - 목표: 텍스트 마이닝을 프로세스에 대한 이해 및 20 뉴스그룹 분류 데이터세트를 이용한 분류 모델 생성/학습/평가
+
 ---
 
  ```bash
