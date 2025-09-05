@@ -57,7 +57,7 @@
 - **250905_text_analysis**
     - 텍스트 분석
     - 주요내용: NLP와 TA의 관계, 텍스트 전처리(Cleansing, Tokenization, Filtering/Stop Word Removal, Stemming/Lemmatization), 희소행렬
-    - 목표: 텍스트 마이닝을 프로세스에 대한 이해 및 20 뉴스그룹 분류 데이터세트를 이용한 분류 모델 생성/학습/평가
+    - 목표: 텍스트 마이닝 프로세스에 대한 이해 및 20 뉴스그룹 분류 데이터세트를 이용한 분류 모델 생성/학습/평가
 
 ---
 
