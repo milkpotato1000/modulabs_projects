@@ -54,10 +54,12 @@
     - 목표: 주요 clusturing 알고리즘에 대한 이해 및 iris 데이터 세트를 이용한 실습.
     - 참고: https://www.kaggle.com/code/azminetoushikwasi/different-clustering-techniques-and-algorithms
 
-- **250905_text_analysis**
-    - 텍스트 분석
+- **250905_NLP**
+    - 자연어처리
+    - 텍스트 분석 / 감정(감성) 분석
     - 주요내용: NLP와 TA의 관계, 텍스트 전처리(Cleansing, Tokenization, Filtering/Stop Word Removal, Stemming/Lemmatization), 희소행렬
-    - 목표: 텍스트 마이닝 프로세스에 대한 이해 및 20 뉴스그룹 분류 데이터세트를 이용한 분류 모델 생성/학습/평가
+    - 목표1: 텍스트 마이닝 프로세스에 대한 이해 및 20 뉴스그룹 분류 데이터세트를 이용한 분류 모델 생성/학습/평가
+    - 목표2: 감정분석을 통해 고객 후기 기반 서비스 호감도 예측 모델 생성/학습/평가
 
 ---
 
