@@ -67,6 +67,20 @@
   - Notebook 파일명: `장_해당 장의 주제.ipynb` 형식으로 구성  
   - 목표: 교재 연습문제 풀이 및 실습을 통해 머신러닝, 딥러닝 개념 및 알고리즘 이해
 
+- **time_series**
+    - 시계열 분석관련 예제 및 학습 코드 정리
+    - 250909_stationarity.ipynb
+        - 시계열의 정상성 관련 학습 코드
+        - 주요내용:
+            - 시계열 분석의 기본조건인 정상성의 정의
+            - 시계열의 비정상 
+            - 비정상 시계열의 정상화 방법
+            - 정상성의 확인: KPSS(Kwiatkowski-Phillips-Schmidt-Shin Test) 검정 / ADF (Augmented Dickey-Fuller) 검정
+            - 시각화를 통한 시계열 EDA
+            - ACF(AutoCorrelation Function) Plot
+            - PACF(Partial AutoCorrelation Function) Plot
+        - 목표: 정상 시계열을 이해하고 차분, 평활 등을 통해 비정상 시계열을 정상화 하여 시각화 자료로 설명한다.
+
 ---
 
 ```bash
