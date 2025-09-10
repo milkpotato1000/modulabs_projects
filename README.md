@@ -80,7 +80,17 @@
             - ACF(AutoCorrelation Function) Plot
             - PACF(Partial AutoCorrelation Function) Plot
         - 목표: 정상 시계열을 이해하고 차분, 평활 등을 통해 비정상 시계열을 정상화 하여 시각화 자료로 설명한다.
-
+    - 250910_classification.ipynb
+        - 시계열 데이터를 활용한 분류(Classification) 문제 실습
+            1. air passengers 데이터
+               - 로그변환을 통한 분산 안정화
+               - 차분을 통한 경향성 제거
+            2. robot exection failures 데이터
+               - 센서 id에 따른 stratified train_test set 분할
+               - extract_features()
+               - EfficientFCParameters()
+               - RandomForest 활용 분류
+               - XGBoost 활용 분류
 ---
 
 ```bash
