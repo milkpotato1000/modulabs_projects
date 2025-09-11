@@ -69,7 +69,7 @@
 
 - **time_series**
     - 시계열 분석관련 예제 및 학습 코드 정리
-    - 250909_stationarity.ipynb
+    - **250909_stationarity.ipynb**
         - 시계열의 정상성 관련 학습 코드
         - 주요내용:
             - 시계열 분석의 기본조건인 정상성의 정의
@@ -80,7 +80,7 @@
             - ACF(AutoCorrelation Function) Plot
             - PACF(Partial AutoCorrelation Function) Plot
         - 목표: 정상 시계열을 이해하고 차분, 평활 등을 통해 비정상 시계열을 정상화 하여 시각화 자료로 설명한다.
-    - 250910_classification.ipynb
+    - **250910_classification.ipynb**
         - 시계열 데이터를 활용한 분류(Classification) 문제 실습
             1. air passengers 데이터
                - 로그변환을 통한 분산 안정화
@@ -91,6 +91,17 @@
                - EfficientFCParameters()
                - RandomForest 활용 분류
                - XGBoost 활용 분류
+    - **250911_01_ARIMA.ipynb**
+        - Daily_Demand_Forecasting_Orders 활용 ARIMA 분석 실습
+        - ACF/PACF - 시각화
+        - ARIMA
+        - AutoARIMA
+    - **250911_02_ARIMA_ARCH_miniproject.ipynb**
+        - 금융 시계열 데이터에 대한 분석 방법들
+            - ARCH
+            - GARCH
+        - Air Passengers 데이터를 활용한 ARIMA
+        - S&P 500 데이터셋을 활용한 ARCH
 ---
 
 ```bash
