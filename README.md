@@ -102,6 +102,9 @@
             - GARCH
         - Air Passengers 데이터를 활용한 ARIMA
         - S&P 500 데이터셋을 활용한 ARCH
+    - **250912_time_series_full.ipynb**
+        - 시계열 데이터를 다루는 전 과정 복기 및 ARIMA 분석까지
+        - 시계열 데이터 전처리 과정 및 시계열 데이터의 요소들에 대한 이론정리
 ---
 
 ```bash
