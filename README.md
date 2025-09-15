@@ -105,6 +105,11 @@
     - **250912_time_series_full.ipynb**
         - 시계열 데이터를 다루는 전 과정 복기 및 ARIMA 분석까지
         - 시계열 데이터 전처리 과정 및 시계열 데이터의 요소들에 대한 이론정리
+    -**250915_time_series_final.ipynb**
+        -  업비트 코인거래 차트를 활용한 추세 예측 프로젝트
+        -  목표: 상승장과 하락장을 예측해본다
+        -  주요 내용: Data labeling, Feature engineering, Featur selection, Classifier 훈련/예측/평가
+          
 ---
 
 ```bash
