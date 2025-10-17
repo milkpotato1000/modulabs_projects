@@ -105,14 +105,17 @@
     - **250912_time_series_full.ipynb**
         - 시계열 데이터를 다루는 전 과정 복기 및 ARIMA 분석까지
         - 시계열 데이터 전처리 과정 및 시계열 데이터의 요소들에 대한 이론정리
-    -**250915_time_series_final.ipynb**
+    - **250915_time_series_final.ipynb**
         -  업비트 코인거래 차트를 활용한 추세 예측 프로젝트
         -  목표: 상승장과 하락장을 예측해본다
         -  주요 내용: Data labeling, Feature engineering, Featur selection, Classifier 훈련/예측/평가
-      **deep_learning**
+    - **deep_learning**
         - 딥러닝 학습과정 기록
         - 딥러닝 모델 활용 프로젝트 모음 (이미지분류 등)
-          
+        - Transformer 구현
+    - **Langchain-RAG**
+        - Langchain을 이용한 RAG 시스템 구축을 위한 훈련
+        - gpt-4d-mini 모델을 활용한 RAG 프로젝트 진행             
 ---
 
 ```bash
