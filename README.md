@@ -115,7 +115,9 @@
         - Transformer 구현
     - **Langchain-RAG**
         - Langchain을 이용한 RAG 시스템 구축을 위한 훈련
-        - gpt-4d-mini 모델을 활용한 RAG 프로젝트 진행             
+        - gpt-4d-mini 모델을 활용한 RAG 프로젝트 진행
+    - **Recommendation**
+        - 추천시스템 관련 프로젝트 노트북 모음   
 ---
 
 ```bash
