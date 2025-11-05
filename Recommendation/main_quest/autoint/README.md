@@ -11,3 +11,11 @@
 
 <img width="207" height="760" alt="image" src="https://github.com/user-attachments/assets/e7fed7bd-467b-482c-a0c6-e0d888cf66fa" />
 
+**Trial 09 summary**
+**Hyperparameters:**
+- learning_rate: 0.0005
+- dropout: 0.3
+- embed_dim: 16
+- hidden_units: 128
+- batch_size: 1024
+- Score: 0.5112023949623108
