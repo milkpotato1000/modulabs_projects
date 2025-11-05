@@ -6,4 +6,4 @@
     - hidden_units = hp.Choice('hidden_units', [32, 64, 128])
     - batch_size = hp.Choice('batch_size', [512, 1024, 2048])
 
-    
+    <img width="850" height="510" alt="image" src="https://github.com/user-attachments/assets/40125b9e-5fd7-4f3e-867b-2cdc1d0ebb06" />
