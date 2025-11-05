@@ -7,3 +7,7 @@
     - batch_size = hp.Choice('batch_size', [512, 1024, 2048])
 
     <img width="850" height="510" alt="image" src="https://github.com/user-attachments/assets/40125b9e-5fd7-4f3e-867b-2cdc1d0ebb06" />
+
+
+<img width="207" height="760" alt="image" src="https://github.com/user-attachments/assets/e7fed7bd-467b-482c-a0c6-e0d888cf66fa" />
+
