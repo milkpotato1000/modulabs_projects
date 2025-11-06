@@ -20,10 +20,10 @@ Hidden units: 128<br/>
 Batch size: 1024<br/>
 
 **추천 성능 향상**
-|    |Before Tuning|After Tuning|
+|    |NDCG|Hit rate|
 |:---|:---|:---|
-|NDCG|0.6616|0.66317|
-|Hit rate|0.63034|0.63107|
+|Before Tuning|0.6616|0.63034|
+|After Tuning|0.66317|0.63107|
 
 
 ---
