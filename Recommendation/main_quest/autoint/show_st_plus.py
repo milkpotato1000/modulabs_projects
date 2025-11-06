@@ -18,10 +18,11 @@ def load_data():
     - 앞서 저장된 모델도 불러오고 구현해둡니다.
     '''
     project_path = os.path.abspath(os.getcwd())
-    data_dir_nm = 'data'
+    data_base_path = os.path.abspath('./../../../../data')
+    data_dir_nm = 'autoint'
     movielens_dir_nm = 'ml-1m'
     model_dir_nm = 'model'
-    data_path = f"{project_path}/{data_dir_nm}"
+    data_path = f"{data_base_path}/{data_dir_nm}"
     model_path = f"{project_path}/{model_dir_nm}"
     field_dims = np.load(f'{data_path}/field_dims.npy')
     dropout= 0.4
