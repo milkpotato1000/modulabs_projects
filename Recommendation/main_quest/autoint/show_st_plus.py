@@ -5,7 +5,7 @@ import tensorflow as tf
 import os
 
 import joblib
-from autointmlp_sc import AutoIntMLPModel, predict_model
+from autointmlp import AutoIntMLPModel, predict_model
 from tensorflow.keras.models import load_model
 
 # streamlit run show_st.py 
