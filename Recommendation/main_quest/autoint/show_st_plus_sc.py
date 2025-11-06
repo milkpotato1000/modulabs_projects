@@ -30,7 +30,6 @@ def load_data():
     dropout = 0.5 # dropout, model 정의 (하이퍼파라미터 최적화 값)
     embed_dim = 32 # embed_dim, model 정의 (하이퍼파라미터 최적화 값)
     hidden_units = 128 # hidden_units, model 정의 (하이퍼파라미터 최적화 값)
-    batch_size = 1024 # batch_size, model 정의 (하이퍼파라미터 최적화 값)
     ##########################################################
     
     ratings_df = pd.read_csv(f'{data_path}/{movielens_dir_nm}/ratings_prepro.csv')
@@ -59,7 +58,7 @@ def load_data():
     model.load_weights(f'{model_path}/autoIntMLP_model_2_weights.weights.h5') 
     label_encoders = joblib.load(f'{data_path}/label_encoders.pkl')
     
-    return user_df, movies_df, ratings_df, model, label_encoders, batch_size
+    return user_df, movies_df, ratings_df, model, label_encoders
 
 
 def get_user_seen_movies(ratings_df):
@@ -98,7 +97,7 @@ def get_user_past_interactions(user_id):
     return ratings_df[ (ratings_df['user_id'] == user_id) & (ratings_df['rating'] >= 4)].merge(movies_df, on='movie_id')
 
 
-def get_recom(user, user_non_seen_dict, user_df, movies_df, r_year, r_month, model, label_encoders, batch_size):
+def get_recom(user, user_non_seen_dict, user_df, movies_df, r_year, r_month, model, label_encoders):
     '''
     아래와 같은 순서로 추천 결과를 가져옵니다.
     1. streamlit에서 입력 받은 타겟 월, 연도, 사용자 정보를 받아옴
@@ -124,7 +123,7 @@ def get_recom(user, user_non_seen_dict, user_df, movies_df, r_year, r_month, mod
     for col, le in label_encoders.items():
         merge_data[col] = le.fit_transform(merge_data[col])
     
-    recom_top = predict_model(model, merge_data, batch_size)
+    recom_top = predict_model(model, merge_data)
     # 추천 중 영화 id에 해당되는 부분만 가져옴
     recom_top = [r[0] for r in recom_top]
     # 원본 영화 id로 변환
@@ -134,7 +133,7 @@ def get_recom(user, user_non_seen_dict, user_df, movies_df, r_year, r_month, mod
     return movies_df[movies_df['movie_id'].isin(origin_m_id)]
 
 # 데이터 로드
-users_df, movies_df, ratings_df, model, label_encoders, batch_size = load_data()
+users_df, movies_df, ratings_df, model, label_encoders = load_data()
 user_seen_movies = get_user_seen_movies(ratings_df)
 user_non_seen_dict = get_user_non_seed_dict(movies_df, users_df, user_seen_movies)
 
@@ -158,6 +157,6 @@ if st.button("추천 결과 보기"):
     st.dataframe(user_interactions)
 
     st.write("추천 결과")
-    recommendations = get_recom(user_id, user_non_seen_dict, users_df, movies_df, r_year, r_month, model, label_encoders, batch_size)
+    recommendations = get_recom(user_id, user_non_seen_dict, users_df, movies_df, r_year, r_month, model, label_encoders)
     
     st.dataframe(recommendations)

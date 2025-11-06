@@ -227,8 +227,8 @@ class AutoIntMLPModel(Model):
         return self.autoInt_layer(inputs, training=training)
     
     
-def predict_model(model, pred_df, batch_size):
-    batch_size = batch_size
+def predict_model(model, pred_df):
+    batch_size = 2048
     top=10
     user_pred_info = []
     total_rows = len(pred_df)
