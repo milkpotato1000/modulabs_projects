@@ -33,5 +33,6 @@ Batch size: 1024<br/>
 <img width="773" height="1218" alt="image" src="https://github.com/user-attachments/assets/b0a159d7-db88-448b-9db6-1ba58c76f203" /><br/>
 
 **파라미터 최적화 후 추천 결과**
+<img width="594" height="1090" alt="image" src="https://github.com/user-attachments/assets/072703d2-eb1f-41c6-b118-7d1119b46b61" /><br/>
 
 
