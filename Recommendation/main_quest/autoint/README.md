@@ -1,4 +1,4 @@
-<img width="758" height="1069" alt="image" src="https://github.com/user-attachments/assets/a26dc0b4-3fe6-421d-8379-df40a52871d6" />**autointMLP.ipynb**
+**autointMLP.ipynb**
 
 - Grid search 를 이용한 하이퍼파라미터 튜닝
     - learning_rate = hp.Choice('learning_rate', [1e-3, 5e-4, 1e-4])
