@@ -34,9 +34,8 @@ Batch size: 1024<br/>
 **[BEFORE] 파라미터 최적화 전 추천 결과**<br/>
 <img width="744" height="1060" alt="image" src="https://github.com/user-attachments/assets/472f662f-3506-4a69-82e4-afe120a89b82" /><br/>
 
-
-
 **[AFTER] 파라미터 최적화 후 추천 결과**<br/>
+- **batch_size: 1024** 결과<br/>
 <img width="758" height="1069" alt="image" src="https://github.com/user-attachments/assets/3d213f6f-49ae-496b-bea9-a01659dd48ee" /><br/>
 
 - 유저가 즐겨보는 코메디 장르가 추천 목록에 포함됨
@@ -46,4 +45,5 @@ Batch size: 1024<br/>
 
 **[Q&A] Predict시, batch_size의 영향?**<br/>
 - 영향 없음 - 결과는 동일 (batch size, 1024 vs 2048)<br/>
+- **batch_size=2048 결과**<br/>
 <img width="763" height="1055" alt="image" src="https://github.com/user-attachments/assets/1b431087-fc15-468e-89a9-3de44700f841" />
