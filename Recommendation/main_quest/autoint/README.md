@@ -39,5 +39,6 @@ Batch size: 1024<br/>
 **파라미터 최적화 후 추천 결과**<br/>
 <img width="758" height="1069" alt="image" src="https://github.com/user-attachments/assets/3d213f6f-49ae-496b-bea9-a01659dd48ee" /><br/>
 
-
+- 유저가 즐겨보는 코메디 장르가 추천 목록에 포함됨
+- 전반적으로 장르별 추천 유사도가 더 잘 맞는 경향
 
