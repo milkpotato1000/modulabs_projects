@@ -7,7 +7,7 @@
     - batch_size = hp.Choice('batch_size', [512, 1024, 2048])
 
 **Hyperparameter Tuning TOP 3**
-<img width="249" height="448" alt="image" src="https://github.com/user-attachments/assets/746a7c19-ddeb-4b65-8008-5e96e8e32e28" />
+<img width="249" height="448" alt="image" src="https://github.com/user-attachments/assets/746a7c19-ddeb-4b65-8008-5e96e8e32e28" /> <br>
 
 
 **BEST**
