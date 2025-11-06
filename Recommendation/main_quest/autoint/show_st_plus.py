@@ -25,22 +25,34 @@ def load_data():
     data_path = f"{data_base_path}/{data_dir_nm}"
     model_path = f"{project_path}/{model_dir_nm}"
     field_dims = np.load(f'{data_path}/field_dims.npy')
-    dropout= 0.4
-    embed_dim= 16
+    dropout = 0.5 # model 정의 (하이퍼파라미터 최적화 값)
+    embed_dim = 32 # model 정의 (하이퍼파라미터 최적화 값)
+    hidden_units = 128 # model 정의 (하이퍼파라미터 최적화 값)
     
     ratings_df = pd.read_csv(f'{data_path}/{movielens_dir_nm}/ratings_prepro.csv')
     movies_df = pd.read_csv(f'{data_path}/{movielens_dir_nm}/movies_prepro.csv')
     user_df = pd.read_csv(f'{data_path}/{movielens_dir_nm}/users_prepro.csv')
 
 
-    model = AutoIntMLPModel(field_dims, embed_dim, att_layer_num=3, att_head_num=2, att_res=True, dnn_hidden_units=(32, 32), dnn_activation='relu',
-                             l2_reg_dnn=0, l2_reg_embedding=1e-5, dnn_use_bn=False, dnn_dropout=dropout, init_std=0.0001)
+    model = AutoIntMLPModel(
+        field_dims, 
+        embedding_size=embed_dim, # 하이퍼파라미터 튜닝 값
+        att_layer_num=3, 
+        att_head_num=2, 
+        att_res=True, 
+        dnn_hidden_units=(hidden_units, hidden_units), # 하이퍼파라미터 튜닝 값
+        dnn_activation='relu',
+        l2_reg_dnn=0, 
+        l2_reg_embedding=1e-5, 
+        dnn_use_bn=False, 
+        dnn_dropout=dropout, # 하이퍼파라미터 튜닝 값
+        init_std=0.0001)
     
 
     
     model(tf.constant([[0] * len(field_dims)], dtype=tf.int64))
 
-    model.load_weights(f'{model_path}/autoInt_mlp_model_weights_2.weights.h5') 
+    model.load_weights(f'{model_path}/autoIntMLP_model_2_weights.weights.h5') 
     label_encoders = joblib.load(f'{data_path}/label_encoders.pkl')
     
     return user_df, movies_df, ratings_df, model, label_encoders

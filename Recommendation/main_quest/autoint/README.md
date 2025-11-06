@@ -19,10 +19,12 @@ Embed dim: 32<br/>
 Hidden units: 128<br/>
 Batch size: 1024<br/>
 
-|Before Tuning|After Tuning|
-|:---|:---|
-|<img width="187" height="35" alt="image" src="https://github.com/user-attachments/assets/a4e71679-4679-4d59-9ff0-6b79296f31b5" />|<img width="191" height="37" alt="image" src="https://github.com/user-attachments/assets/657560f7-8ac2-42cf-abed-73f8f3a40f10" />
-- 추천 예측 성능 향상 확인
+**추천 성능 향상**
+|    |Before Tuning|After Tuning|
+|:---|:---|:---|
+|NDCG|0.66155|66317|
+|Hit rate|0.6301|0.63107|
+
 
 ---
 ### 파라미터 최적화 전과 후 비교
