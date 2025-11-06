@@ -1,4 +1,4 @@
-**autointMLP.ipynb**
+<img width="758" height="1069" alt="image" src="https://github.com/user-attachments/assets/a26dc0b4-3fe6-421d-8379-df40a52871d6" />**autointMLP.ipynb**
 
 - Grid search 를 이용한 하이퍼파라미터 튜닝
     - learning_rate = hp.Choice('learning_rate', [1e-3, 5e-4, 1e-4])
@@ -28,11 +28,14 @@ Batch size: 1024<br/>
 
 ---
 ### 파라미터 최적화 전과 후 비교
+**입력**
+<img width="731" height="265" alt="image" src="https://github.com/user-attachments/assets/63e76214-55a1-40c4-a0b6-b45ec1f44b85" />
 
 **파라미터 최적화 전 추천 결과**
 <img width="773" height="1218" alt="image" src="https://github.com/user-attachments/assets/b0a159d7-db88-448b-9db6-1ba58c76f203" /><br/>
 
 **파라미터 최적화 후 추천 결과**
-<img width="594" height="1090" alt="image" src="https://github.com/user-attachments/assets/072703d2-eb1f-41c6-b118-7d1119b46b61" /><br/>
+<img width="758" height="1069" alt="image" src="https://github.com/user-attachments/assets/3d213f6f-49ae-496b-bea9-a01659dd48ee" />
+
 
 
