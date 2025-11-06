@@ -22,8 +22,8 @@ Batch size: 1024<br/>
 **추천 성능 향상**
 |    |Before Tuning|After Tuning|
 |:---|:---|:---|
-|NDCG|0.66155|66317|
-|Hit rate|0.6301|0.63107|
+|NDCG|0.6616|66317|
+|Hit rate|0.63034|0.63107|
 
 
 ---
