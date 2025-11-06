@@ -7,20 +7,18 @@
     - hidden_units = hp.Choice('hidden_units', [32, 64, 128])
     - batch_size = hp.Choice('batch_size', [512, 1024, 2048])
 
-**Hyperparameter Tuning TOP 3**
+**Hyperparameter Tuning TOP 3**<br/>
+<img width="249" height="448" alt="image" src="https://github.com/user-attachments/assets/746a7c19-ddeb-4b65-8008-5e96e8e32e28" /> <br/><br/>
 
-<img width="249" height="448" alt="image" src="https://github.com/user-attachments/assets/746a7c19-ddeb-4b65-8008-5e96e8e32e28" /> 
 
-
-**BEST**
-
-Trial 00 summary
-🎯 Best Hyperparameters:
-Learning rate: 0.0001
-Dropout: 0.5
-Embed dim: 32
-Hidden units: 128
-Batch size: 1024
+**BEST**<br/>
+Trial 00 summary<br/>
+🎯 Best Hyperparameters:<br/>
+Learning rate: 0.0001<br/>
+Dropout: 0.5<br/>
+Embed dim: 32<br/>
+Hidden units: 128<br/>
+Batch size: 1024<br/>
 
 
 |Before Tuning|After Tuning|
