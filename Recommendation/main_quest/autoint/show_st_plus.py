@@ -25,9 +25,13 @@ def load_data():
     data_path = f"{data_base_path}/{data_dir_nm}"
     model_path = f"{project_path}/{model_dir_nm}"
     field_dims = np.load(f'{data_path}/field_dims.npy')
-    dropout = 0.5 # model 정의 (하이퍼파라미터 최적화 값)
-    embed_dim = 32 # model 정의 (하이퍼파라미터 최적화 값)
-    hidden_units = 128 # model 정의 (하이퍼파라미터 최적화 값)
+    
+    # 하이퍼 파라미터 변경 사항 입력 ##########################
+    dropout = 0.5 # dropout, model 정의 (하이퍼파라미터 최적화 값)
+    embed_dim = 32 # embed_dim, model 정의 (하이퍼파라미터 최적화 값)
+    hidden_units = 128 # hidden_units, model 정의 (하이퍼파라미터 최적화 값)
+    batch_size = 1024 # batch_size, model 정의 (하이퍼파라미터 최적화 값)
+    ##########################################################
     
     ratings_df = pd.read_csv(f'{data_path}/{movielens_dir_nm}/ratings_prepro.csv')
     movies_df = pd.read_csv(f'{data_path}/{movielens_dir_nm}/movies_prepro.csv')
@@ -120,7 +124,7 @@ def get_recom(user, user_non_seen_dict, user_df, movies_df, r_year, r_month, mod
     for col, le in label_encoders.items():
         merge_data[col] = le.fit_transform(merge_data[col])
     
-    recom_top = predict_model(model, merge_data)
+    recom_top = predict_model(model, merge_data, batch_size)
     # 추천 중 영화 id에 해당되는 부분만 가져옴
     recom_top = [r[0] for r in recom_top]
     # 원본 영화 id로 변환
