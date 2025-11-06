@@ -5,10 +5,10 @@
     - dropout = hp.Choice('dropout', [0.3, 0.4, 0.5])
     - embed_dim = hp.Choice('embed_dim', [8, 16, 32])
     - hidden_units = hp.Choice('hidden_units', [32, 64, 128])
-    - batch_size = hp.Choice('batch_size', [512, 1024, 2048])
+    - batch_size = hp.Choice('batch_size', [512, 1024, 2048])<br/>
 
 **Hyperparameter Tuning TOP 3**<br/>
-<img width="249" height="448" alt="image" src="https://github.com/user-attachments/assets/746a7c19-ddeb-4b65-8008-5e96e8e32e28" /> <br/><br/>
+<img width="249" height="448" alt="image" src="https://github.com/user-attachments/assets/746a7c19-ddeb-4b65-8008-5e96e8e32e28" /><br/>
 
 **BEST**<br/>
 Trial 00 summary<br/>
