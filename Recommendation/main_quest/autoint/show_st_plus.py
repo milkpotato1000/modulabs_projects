@@ -39,7 +39,7 @@ def load_data():
     
     model(tf.constant([[0] * len(field_dims)], dtype=tf.int64))
 
-    model.load_weights(f'{model_path}/autoIntMLP_model_weights.weights.h5') 
+    model.load_weights(f'{model_path}/autoInt_mlp_model_weights_2.weights.h5') 
     label_encoders = joblib.load(f'{data_path}/label_encoders.pkl')
     
     return user_df, movies_df, ratings_df, model, label_encoders
