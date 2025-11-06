@@ -32,10 +32,12 @@ Batch size: 1024<br/>
 <img width="731" height="265" alt="image" src="https://github.com/user-attachments/assets/63e76214-55a1-40c4-a0b6-b45ec1f44b85" /><br/>
 
 **파라미터 최적화 전 추천 결과**<br/>
+<img width="744" height="1060" alt="image" src="https://github.com/user-attachments/assets/472f662f-3506-4a69-82e4-afe120a89b82" /><br/>
+
 
 
 **파라미터 최적화 후 추천 결과**<br/>
-<img width="758" height="1069" alt="image" src="https://github.com/user-attachments/assets/3d213f6f-49ae-496b-bea9-a01659dd48ee" />
+<img width="758" height="1069" alt="image" src="https://github.com/user-attachments/assets/3d213f6f-49ae-496b-bea9-a01659dd48ee" /><br/>
 
 
 
