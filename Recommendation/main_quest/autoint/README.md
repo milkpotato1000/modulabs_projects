@@ -19,3 +19,9 @@
 - hidden_units: 128
 - batch_size: 1024
 - Score: 0.5112023949623108
+
+|Before Tuning|After Tuning|
+|:---|:---|
+|<img width="207" height="46" alt="image" src="https://github.com/user-attachments/assets/24ddb010-c71e-4b32-92f7-520ef3f484a2" />
+|<img width="195" height="38" alt="image" src="https://github.com/user-attachments/assets/7851c126-f304-45fa-a560-0030eadd7a4a" />
+|
