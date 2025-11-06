@@ -6,4 +6,3 @@
     - hidden_units = hp.Choice('hidden_units', [32, 64, 128])
     - batch_size = hp.Choice('batch_size', [512, 1024, 2048])
 
-    
